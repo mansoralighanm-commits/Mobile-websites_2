@@ -1,0 +1,141 @@
+body{
+  background: radial-gradient(#DCDCDC,#EEECFF);
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  height: 50px;
+  display: flex;
+  background: #5E64AA;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul{
+  display: inline-block;
+}
+
+nav ul li{
+  flex: 1;
+  display: inline-block;
+  text-align: right;
+  list-style-type: none;
+  font-size: 28px;
+  margin: 0 8px;
+  font-family: fantasy;
+}
+nav ul li a{
+  text-decoration: none;
+  color:#B7B9C8;
+  background: #00085F;
+  padding: 7px;
+  border-radius: 10px;
+}
+.navbar .logo img{
+  width: 40px;
+  height: 40px;
+}
+.container .row{
+  margin: 10px 0 0 0 ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: radial-gradient(#FFFFFF,#DDE5F3);
+}
+.row .col_1{
+  text-transform: capitalize;
+  margin: 10px;
+}
+.row .col_1 h1 {
+  padding: 15px 0;
+  margin: 20px ;
+}
+.col_1 p {
+  margin: 10px 0 ;
+}
+.col_1 a{
+  padding: 5px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #FFFFFF;
+  background: #005DF8;
+  border-radius: 8px;
+}
+.categories{
+  max-width: 1080px;
+}
+.categories .row h1{
+  margin: 0 20px;
+}
+.categories .row{
+  min-width: 400px;
+ text-transform: capitalize; 
+ display: flex;
+ flex-wrap: wrap;
+}
+.categories  .img_cat{
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.img_cont{
+  min-width: 800px;
+  background: radial-gradient(#CFCFCF,#C5CAFF);
+  text-align: center;
+  margin-top: 30px;
+  transition: all 0.7s ease;
+}
+.img_cont .img_cates{
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.7s ease;
+}
+.img_cates img{
+   margin: 25px 0 0 0 ;
+  max-width: 300px;
+  transition: all 0.7s ease;
+}
+.img_cont .img_cates :hover{
+  position: relative;
+  bottom: 10px;
+}
+.small_container{
+  min-width: 1000px;
+  margin-top: 40px;
+  background: radial-gradient(#6270FF,#B3B5D1);
+  padding: 20px;
+  text-transform: capitalize;
+}
+.small_container .container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+.small_container .container h1{
+  font-size: 40px;
+}
+.small_container .container p{
+  font-size: 28px;
+  color: #fff;
+  margin: 0 0 10px 0;
+}
+.small_container .container a{
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+  background: #BFBEF6;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 9px;
+}
+.small_container .container a:hover{
+  color: #000000;
+  background: #fff;
+}
